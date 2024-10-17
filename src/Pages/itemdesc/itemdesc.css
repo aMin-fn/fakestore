@@ -1,0 +1,110 @@
+.details-container
+{
+    display: flex;
+    margin:50px auto;
+    max-width: 1300px;
+    justify-content: center;
+    align-items: center;
+
+}
+.swal2-container button
+{
+    background-color: darkred ;
+}
+
+
+.details-container .right
+{
+    width: 40%;
+    text-align: center;
+}
+.details-container .left .desc p
+{
+    margin: 30px 0;
+}
+
+.details-container .left
+{
+    width: 60%;
+    padding: 15px;
+}
+.details-container .right img
+{
+    width: 50%;
+    height: 50%;
+}
+
+.details-container .left h1
+{
+    width: 100%;
+}
+
+.details-container .left .price
+{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+}
+.details-container .left .price p
+{
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.details-container .left .price a i
+{
+    margin-right: 5px;
+}
+.details-container button
+{
+    height: 35px;
+    border: 1px solid darkred;
+    width: 60%;
+    background-color: white;
+    color: darkred;
+    border-radius: 5px;
+    transition: all ease .5s;
+
+}
+.details-container button:hover
+{
+    background-color: darkred;
+    color: white;
+    border: 1px solid darkred;
+}
+.addCardBtn i
+{
+    transition:  all ease 0.5s;
+}
+
+.addCardBtn:hover i
+{
+   
+    color: white ;
+}
+.details-container .addCardContainer
+{
+    width: 70%;
+}
+@media screen and (max-width:700px){
+    .details-container
+    {
+        flex-direction: column-reverse;
+    }
+    .details-container .left,
+    .details-container .right
+    {
+        width: auto;
+    }
+    .details-container .right img {
+        width: 200px;
+        height: 250px;
+    }
+
+
+
+}
+
+

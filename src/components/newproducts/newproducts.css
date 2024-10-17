@@ -1,0 +1,22 @@
+
+
+.newItem-container
+{
+    background-color: rgb(240, 202, 216);
+    margin: 100px 0;
+    padding: 40px;
+
+}
+.newItem-container .items
+{
+    display: flex;
+    justify-content: center;
+    max-width: 1300px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.newItem-container h1{
+    text-align: center;
+    font-family: satisfy;
+    margin-bottom: 60px;
+}

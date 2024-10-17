@@ -1,0 +1,92 @@
+nav
+{
+
+    height: 100px;
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 15px;
+    align-items: center;
+    
+}
+nav button
+{
+    display: none ;
+}
+nav .right
+{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .right img
+{
+    width: 70px;
+    height: 70px;
+}
+nav .left
+{
+    width: 90%;
+    height: 100%;
+}
+nav .left ul
+{
+    display: flex;
+    list-style-type: none;
+    height: 100%;
+    align-items: center;
+    
+}
+nav .left ul li
+{
+    width: 100px;
+
+}
+
+nav .left ul i
+{
+    color: gray;
+    margin:0 5px;
+    font-size: 13px;
+    transition: all ease .4s ;
+
+}
+nav .left ul li:hover a,
+nav .left ul li:hover i
+{
+    color: black;
+}
+
+nav .left ul li a
+{
+    text-decoration: none;
+    border:  none;
+    color: gray;
+    transition: all ease .4s ;
+}
+.product-li
+{
+    position: relative;
+}
+
+.product-li::after:hover
+{
+    border-color:black ;
+}
+@media screen and (max-width:600px){
+    nav
+    {
+        justify-content: space-between;
+    }
+    nav .left
+    {
+        display: none;
+    }
+    nav button
+    {
+        display: block !important;
+    }
+    
+}

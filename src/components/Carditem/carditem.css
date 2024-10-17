@@ -1,0 +1,113 @@
+.card-container
+{
+    max-width: 1300px;
+    margin:70px auto;
+    padding: 0 15px;
+
+}
+
+.card-container .img-c
+{
+    width: 25%;
+    padding: 10px;
+}
+.card-container p
+{
+    font-weight: bold;
+    width: 25%;
+    padding: 10px;
+}
+.card-container .center
+{
+    height: 130px;
+    margin: 10px 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    align-items: center;
+}
+.card-container .center .icon svg
+{
+    transition: all ease .4s;
+    cursor: pointer;
+    fill: darkred;
+}
+.card-container .center .icon svg:hover
+{
+    font-size: 20px;
+}
+.card-container .center .icon
+{
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.top-text 
+{
+    display: inline-flex;
+    align-items: center;
+    border-bottom: 2px dotted darkred;
+
+}
+.cart-body
+{
+    margin-top: 30px;
+}
+.cart-body .top
+{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-body .top p
+{
+    width: 25%;
+    margin: 0;
+}
+
+.cart-body .bottom
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.top-text h2
+{
+    margin: 0;
+    font-family: satisfy;
+
+    
+}
+.card-container .bottom a
+{
+    height: 40px;
+    background-color: darkred;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: satisfy;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+@media screen and ( max-width: 992px ) {
+    .card-container .center
+    {
+        height: 130px;
+    }
+    .card-container .center .icon
+    {
+        flex-direction: column ;
+        height: 100%;
+    }
+
+    
+}
+@media screen and ( max-width: 650px ) {
+    .card-container .center
+    {
+        height: 230px;
+    }
+   
+    
+}

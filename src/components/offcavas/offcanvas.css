@@ -1,0 +1,38 @@
+.offcanvas-header
+{
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.offcanvas-header .btn-close
+{
+    margin-right: 0 !important;
+}
+.left ul
+{
+    list-style-type: none;
+}
+.left ul li
+{
+    padding: 20px 0;
+}
+
+
+.left ul li a
+{
+    text-decoration: none;
+    color: #808080;
+    margin : 0 5px;
+    transition: all ease .5s;
+}
+.left ul li i
+{
+    
+    color: #808080;
+    transition: all ease .5s;
+}
+.left ul li:hover a,
+.left ul li:hover i
+{
+    color: black;
+}

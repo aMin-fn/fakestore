@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'satisfy';
+    src: url(../../assets/fonts/Lobster-Regular.ttf);
+}
+
+.newarival-container
+{
+    margin: 50px auto;
+    display: flex;
+    max-width: 1300px;
+    padding: 0 15px;
+    align-items: center;
+    
+
+}
+.newarival-container .right
+{
+   width: 40%;
+    
+}
+.newarival-container .right img
+{
+    height: auto;
+    border-radius : 5px;
+}
+
+.newarival-container .left
+{
+    width: 60%;
+
+}
+.newarival-container .left h1
+{
+    font-family: satisfy;
+}
+
+.newarival-container .left p
+{
+    width: 80%;
+    margin: 40px 0;
+}
+.newarival-container .left a
+{
+    border: 1px solid darkred;
+    color: darkred;
+    padding: 7px 20px;
+    border-radius: 7px;
+    text-decoration: none;
+    position: relative;
+    transition: all ease .5s;
+}
+.newarival-container .left a:hover
+{
+    background-color: darkred;
+    color: white;
+}
+.newarival-container .left a:hover::after
+{
+    border-color: white;
+}
+
+
+.newarival-container .left a::after
+{
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border: 2.3px solid darkred;
+    transform: rotate(-45deg);
+    border-top: none;
+    border-left: none;
+    position: absolute;
+    bottom: 11px;
+    right: 10%;
+    transition: all ease .5s;
+
+
+    
+    
+}
+
+img
+{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:740px){
+    .newarival-container
+    {
+        flex-direction: column;
+    }
+    .newarival-container .left,
+    .newarival-container .right
+    {
+        width: auto;
+        margin-bottom: 20px;
+    }
+
+
+}
